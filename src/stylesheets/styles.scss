@@ -1,1 +1,195 @@
-// Add your styles here
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+  }
+  
+  .svg-inline--fa.fa-w-14 {
+    width: 2em;
+  }
+  
+  .box-shaddow-4 {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 100px 0px;
+  }
+  
+  .rt-sm {
+    padding-top: 30px;
+  }
+  
+  .rb-sm {
+    padding-bottom: 30px;
+  }
+  
+  .rt-md {
+    padding-top: 30px;
+  }
+  
+  @media (min-width: 992px) {
+    .rt-md {
+      padding-top: 30px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .rt-md {
+      padding-top: 60px;
+    }
+  }
+  .rb-md {
+    padding-bottom: 30px;
+  }
+  
+  @media (min-width: 992px) {
+    .rb-md {
+      padding-bottom: 30px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .rb-md {
+      padding-bottom: 60px;
+    }
+  }
+  .rt-lg {
+    padding-top: 30px;
+  }
+  
+  @media (min-width: 992px) {
+    .rt-lg {
+      padding-top: 60px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .rt-lg {
+      padding-top: 120px;
+    }
+  }
+  .rb-lg {
+    padding-bottom: 30px;
+  }
+  
+  @media (min-width: 992px) {
+    .rb-lg {
+      padding-bottom: 60px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .rb-lg {
+      padding-bottom: 120px;
+    }
+  }
+  .rt-xl {
+    padding-top: 60px;
+  }
+  
+  @media (min-width: 992px) {
+    .rt-xl {
+      padding-top: 120px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .rt-xl {
+      padding-top: 240px;
+    }
+  }
+  .rb-xl {
+    padding-bottom: 60px;
+  }
+  
+  @media (min-width: 992px) {
+    .rb-xl {
+      padding-bottom: 120px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .rb-xl {
+      padding-bottom: 240px;
+    }
+  }
+  .skills {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(13, [col] 1fr);
+    grid-template-rows: repeat(3, [row] auto);
+  }
+  
+  .skill {
+    text-align: center;
+    border: 50rem;
+  }
+  
+  .a {
+    grid-column: col / span 4;
+    grid-row: row 2;
+  }
+  
+  .b {
+    grid-column: col 4 / span 4;
+    grid-row: row 2;
+  }
+  
+  .c {
+    grid-column: col 7 / span 4;
+    grid-row: row 2;
+  }
+  
+  .d {
+    grid-column: col 10 / span 4;
+    grid-row: row 2;
+  }
+  
+  .e {
+    grid-column: col 5 / span 3;
+    grid-row: row 2;
+  }
+  
+  .me {
+    grid-column: col 3 / span 9;
+    grid-row: row / span 3;
+  }
+  
+  .skill-circle {
+    stroke: #94d8ff;
+    stroke-width: 4px;
+  }
+  
+  .skill-text {
+    fill: #003a5c;
+  }
+  
+  .my-skillset {
+    font-size: 40%;
+    fill: #003a5c;
+  }
+  
+  .my-circle {
+    stroke: #94d8ff;
+    fill: #e1f4ff;
+  }
+  
+  .welcome-message {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  @media (min-width: 576px) {
+    .welcome-message {
+      font-size: 1.6rem;
+    }
+  }
+  @media (min-width: 768px) {
+    .welcome-message {
+      font-size: 2rem;
+    }
+  }
+  
+  .gradient-wrap {
+    --transparency-circle: 0.15;
+    --circle-size: 16%;
+    background: radial-gradient(circle farthest-corner at 0px 0px, rgba(200, 0, 255, var(--transparency-circle)) 0%, rgba(255, 255, 255, 0) var(--circle-size)), radial-gradient(circle farthest-corner at 30% 0, rgba(0, 70, 255, var(--transparency-circle)) 0%, rgba(255, 255, 255, 0) var(--circle-size)), radial-gradient(circle farthest-corner at 60% 0, rgba(255, 220, 0, var(--transparency-circle)) 0%, rgba(255, 255, 255, 0) var(--circle-size)), radial-gradient(circle farthest-corner at 100% 0, rgba(255, 0, 0, var(--transparency-circle)) 0%, rgba(255, 255, 255, 0) var(--circle-size));
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .my-name {
+    background-color: rgba(255, 255, 204, 0.7);
+  }

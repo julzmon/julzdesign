@@ -9,16 +9,16 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'Static Site Boilerplate',
+  site_name: 'julzdesign',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'A modern boilerplate for static website development',
+  site_description: 'Senior UI Designer & Developer, Design System Expert',
 
   // Your website's URL, used for sitemap
-  site_url: 'http://staticsiteboilerplate.com',
+  site_url: 'http://julzdesign.com',
 
   // Google Analytics tracking ID (leave blank to disable)
-  googleAnalyticsUA: '',
+  googleAnalyticsUA: 'UA-2875594-1',
 
   // The viewport meta tag added to your HTML page's <head> tag
   viewport: 'width=device-width,initial-scale=1',
