@@ -1,117 +1,20 @@
-svg:not(:root).svg-inline--fa {
-  overflow: visible;
-}
+$font-family-sans-serif: "Inter", serif;
+$font-size-base: 1.0625rem;
+// $font-weight-base: $font-weight-light;
 
-.svg-inline--fa.fa-w-14 {
-  width: 2em;
-}
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "fonts";
+@import "row-spacing";
+@import "fa";
+
+// @supports (font-variation-settings: normal) {
+//   html {
+//     font-family: "Inter var", sans-serif;
+//   }
+// }
 
 .box-shaddow-4 {
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 100px 0;
-}
-
-.rt-sm {
-  padding-top: 30px;
-}
-
-.rb-sm {
-  padding-bottom: 30px;
-}
-
-.rt-md {
-  padding-top: 30px;
-}
-
-@media (min-width: 992px) {
-  .rt-md {
-    padding-top: 30px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .rt-md {
-    padding-top: 60px;
-  }
-}
-
-.rb-md {
-  padding-bottom: 30px;
-}
-
-@media (min-width: 992px) {
-  .rb-md {
-    padding-bottom: 30px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .rb-md {
-    padding-bottom: 60px;
-  }
-}
-
-.rt-lg {
-  padding-top: 30px;
-}
-
-@media (min-width: 992px) {
-  .rt-lg {
-    padding-top: 60px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .rt-lg {
-    padding-top: 120px;
-  }
-}
-
-.rb-lg {
-  padding-bottom: 30px;
-}
-
-@media (min-width: 992px) {
-  .rb-lg {
-    padding-bottom: 60px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .rb-lg {
-    padding-bottom: 120px;
-  }
-}
-
-.rt-xl {
-  padding-top: 60px;
-}
-
-@media (min-width: 992px) {
-  .rt-xl {
-    padding-top: 120px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .rt-xl {
-    padding-top: 240px;
-  }
-}
-
-.rb-xl {
-  padding-bottom: 60px;
-}
-
-@media (min-width: 992px) {
-  .rb-xl {
-    padding-bottom: 120px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .rb-xl {
-    padding-bottom: 240px;
-  }
 }
 
 .skills {
@@ -194,7 +97,7 @@ svg:not(:root).svg-inline--fa {
 
 .gradient-wrap {
   --transparency-circle: 0.15;
-  --circle-size: 16%;
+  --circle-size: 30vw;
 
   background:
     radial-gradient(
@@ -219,12 +122,12 @@ svg:not(:root).svg-inline--fa {
     );
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
+// html,
+// body {
+//   width: 100%;
+//   height: 100%;
+// }
 
-.my-name {
-  background-color: rgba(255, 255, 204, 0.7);
-}
+// .my-name {
+//   background-color: rgba(255, 255, 204, 0.7);
+// }

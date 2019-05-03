@@ -78,6 +78,7 @@
     "webpackbar": "^3.1.4"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "chalk": "^2.4.1",
     "clear": "^0.1.0",
     "dploy": "^1.2.0",
