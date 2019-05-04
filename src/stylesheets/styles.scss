@@ -97,7 +97,7 @@ $font-size-base: 1.0625rem;
 
 .gradient-wrap {
   --transparency-circle: 0.15;
-  --circle-size: 30vw;
+  --circle-size: 40vw;
 
   background:
     radial-gradient(
@@ -122,6 +122,17 @@ $font-size-base: 1.0625rem;
     );
 }
 
+@include media-breakpoint-down(md) {
+  .homepage-image {
+    margin-bottom: -100px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .homepage-caption {
+    margin-left: -100px;
+  }
+}
 // html,
 // body {
 //   width: 100%;
