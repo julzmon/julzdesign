@@ -102,22 +102,22 @@ $font-size-base: 1.0625rem;
   background:
     radial-gradient(
       circle farthest-corner at 0 0,
-      rgba(200, 0, 255, var(--transparency-circle)) 0%,
+      rgba(255, 0, 0, var(--transparency-circle)) 0%,
       rgba(255, 255, 255, 0) var(--circle-size)
     ),
     radial-gradient(
       circle farthest-corner at 30% 0,
-      rgba(0, 70, 255, var(--transparency-circle)) 0%,
+      rgba(255, 255, 0, var(--transparency-circle)) 0%,
       rgba(255, 255, 255, 0) var(--circle-size)
     ),
     radial-gradient(
       circle farthest-corner at 60% 0,
-      rgba(255, 220, 0, var(--transparency-circle)) 0%,
+      rgba(0, 255, 0, var(--transparency-circle)) 0%,
       rgba(255, 255, 255, 0) var(--circle-size)
     ),
     radial-gradient(
       circle farthest-corner at 100% 0,
-      rgba(255, 0, 0, var(--transparency-circle)) 0%,
+      rgba(0, 0, 255, var(--transparency-circle)) 0%,
       rgba(255, 255, 255, 0) var(--circle-size)
     );
 }
@@ -131,6 +131,19 @@ $font-size-base: 1.0625rem;
 @include media-breakpoint-up(md) {
   .homepage-caption {
     margin-left: -100px;
+  }
+}
+
+.nav-menu {
+  li {
+    margin-bottom: 1rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .nav-menu {
+    column-count: 3;
+    column-gap: 20px;
   }
 }
 // html,
